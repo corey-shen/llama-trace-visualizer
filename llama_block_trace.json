@@ -1,0 +1,37 @@
+{
+  "traceEvents": [
+    {
+      "name": "input_layernorm",
+      "ph": "X",
+      "ts": 0,
+      "dur": 50,
+      "pid": 1,
+      "args": {
+        "inputs": "[[1, 1, 2048]]",
+        "outputs": "[[1, 1, 2048]]"
+      }
+    },
+    {
+      "name": "q_proj",
+      "ph": "X",
+      "ts": 100,
+      "dur": 50,
+      "pid": 1,
+      "args": {
+        "inputs": "[[1, 1, 2048]]",
+        "outputs": "[[1, 1, 2048]]"
+      }
+    },
+    {
+      "name": "k_proj",
+      "ph": "X",
+      "ts": 200,
+      "dur": 50,
+      "pid": 1,
+      "args": {
+        "inputs": "[[1, 64, 2048]]",
+        "outputs": "[[1, 64, 2048]]"
+      }
+    }
+  ]
+}
